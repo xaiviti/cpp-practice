@@ -14,6 +14,9 @@ int main(){
 	//character (char) = 1 character (letter or symbol)
 	//string (string) = 1 or more characters (name)
 	//boolean (bool) = true or false
+	
+	//you can also update the value
+	
 	int year = 2022;
 	cout << "Year: " << year << endl;		//int
 	double priceTag = 99.89;
