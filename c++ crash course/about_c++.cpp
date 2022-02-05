@@ -20,5 +20,4 @@ What will you need to start c++?
 		-	Microsoft Visual Studio
 		-	Eclipse for C/C++ developers
 		-	Code Blocks
-	
 */
