@@ -15,15 +15,15 @@ int main(){
 	//string (string) = 1 or more characters (name)
 	//boolean (bool) = true or false
 	int year = 2022;
-	cout << year << endl;		//int
+	cout << "Year: " << year << endl;		//int
 	double priceTag = 99.89;
-	cout << priceTag << endl;	//double
+	cout << "Amount is " << priceTag << endl;	//double
 	char onlineStatus = 'G';
-	cout << onlineStatus << endl;//character
+	cout << "Color Status is " << onlineStatus << endl;//character
 	string firstName = "Heidi";
-	cout << firstName << endl;	//string
+	cout << "My name is " << firstName << endl;	//string
 	bool online = true;
-	cout << online << endl;		//boolean
+	cout << "Online Value is " << online << endl;		//boolean
 	
 	return 0;
 	
