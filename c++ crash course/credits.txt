@@ -1,0 +1,26 @@
+C++ Crash Course [Free] by Bro Code
+link: https://youtu.be/uhFpPlMsLzY
+
+(00:00:00) #1 C++ tutorial for beginners
+(00:14:26) #2 output, comments, and escape sequences 💬
+(00:22:20) #3 variables & data types ✖️
+(00:37:05) #4 how to accept user input ⌨️
+(00:50:50) #5 arithmetic 🧮
+(01:07:27) #6 if statements ❓
+(01:20:56) #7 switch tutorial 🔀
+(01:30:34) #8 useful string functions 🧵
+(01:46:20) #9 useful math functions ➗
+(01:55:49) #10 logical operators 🔣
+(02:07:05) #11 while loops 🔄
+(02:17:14) #12 for loops ➰
+(02:27:53) #13 nested loops ➿
+(02:37:20) #14 printf function 🖨️
+(02:57:23) #15 user defined functions 📬
+(03:13:59) #16 overloaded functions 🍕
+(03:20:28) #17 random numbers 🎲
+(03:30:52) #18 pointers 👉
+(03:38:13) #19 arrays 🚗
+(03:58:33) #20 2D arrays ⌨️
+(04:09:12) #21 object oriented programming 📦
+(04:18:28) #22 constructors 👷
+(04:25:10) #23 overloaded constructors 🤯
