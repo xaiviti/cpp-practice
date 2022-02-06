@@ -15,19 +15,19 @@ int main(){
 	cin >> answer;
 	
 	switch(answer){
-		case 'A':
+		case 'A': case 'a':
 			cout << "You did PERFECT!";
 			break;
-		case 'B':
+		case 'B': case 'b':
 			cout << "You did GOOD!";
 			break;
-		case 'C':
+		case 'C': case 'c':
 			cout << "You did OKAY!";
 			break;
-		case 'D':
+		case 'D': case 'd':
 			cout << "You did not do so good!";
 			break;
-		case 'F':
+		case 'F': case 'e':
 			cout << "You did FAILED!";
 			break;
 		default:
