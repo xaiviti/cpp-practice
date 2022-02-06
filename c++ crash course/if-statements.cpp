@@ -7,9 +7,9 @@ using namespace std;
 int main(){
 	int age = 12;
 	if(age>=18){
-		cout << "You're an adult";
+		cout << "You are an adult!";
 	}else{
-		cout << "You are not an adult";
+		cout << "You are not a child!";
 	}
 	return 0;
 }
