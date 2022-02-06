@@ -36,5 +36,9 @@ int main(){
 	printf("Is it for sale:  %c", forSale);
 	cout << endl;
 	
+	//limited decimal : limit into 2 decimal places
+	printf("The amount is $%.2f", price);
+	cout << endl;
+	
 	return 0;
 }
