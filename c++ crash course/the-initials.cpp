@@ -7,10 +7,7 @@ using namespace std;
 
 int main(){
 	//declaration
-	string firstName, middleName, lastName;
-	char first=firstName.at(0);
-	char middlemiddleName.at(0);
-	char last=lastName.at(0);	
+	string firstName, middleName, lastName;	
 	
 	//input
 	cout << "EXTRACTING THE INITIALS\n";
@@ -20,9 +17,12 @@ int main(){
 	cin >> middleName;
 	cout << "Enter your last name: ";
 	cin >> lastName;
+	char first=firstName.at(0);
+	char middle=middleName.at(0);
+	char last=lastName.at(0);
 	
 	//output
-	
+	cout << "Your initials are " <<first<<middle<<last;
 	
 	return 0;
 }
