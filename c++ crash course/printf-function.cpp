@@ -40,5 +40,14 @@ int main(){
 	printf("The amount is $%.2f", price);
 	cout << endl;
 	
+	//blank spaces : between % and s
+	printf("This precedes with blank spaces:%10s", "Audi");
+	cout << endl;
+	printf("This precedes with zeros: %010s", "Audi");
+	cout << endl;
+	//left justify
+	printf("Left Justify: %-10s%-10s", "Audi", "eTron");
+	cout << endl;
+	
 	return 0;
 }
