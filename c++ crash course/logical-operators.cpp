@@ -2,6 +2,7 @@
 Logical Operators
 	- && AND logical operator
 	- || OR logical operator
+	- ! NOT logical operator
 */
 
 #include <iostream>
@@ -23,7 +24,6 @@ int main(){
 	}else {
 		cout << "GO TO THE HOSPITAL!";
 	}
-	*/
 	
 	string cough;
 	
@@ -35,6 +35,17 @@ int main(){
 		cout << "You are sick!";
 	}else{
 		cout << "You are probably fine.";
+	}
+	*/
+	string name;
+	
+	cout << "Enter your name: ";
+	getline(cin, name);
+	// !
+	if(!name.empty()){
+		cout << "Welcome " << name + "!";
+	}else{
+		cout << "YOU DID NOT ENTER YOUR NAME!";
 	}
 	
 	cout << endl;
