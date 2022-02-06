@@ -30,10 +30,10 @@ int main(){
 	printf("The year is %d", year);
 	cout << endl;
 	
-	printf("The amount is %lf", price);
+	printf("The amount is %f", price);
 	cout << endl;
 	
-	printf("The year is %c", forSale);
+	printf("Is it for sale:  %c", forSale);
 	cout << endl;
 	
 	return 0;
