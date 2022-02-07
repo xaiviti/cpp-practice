@@ -8,8 +8,9 @@ User defined functions
 using namespace std;
 
 //sending information
-void greetings(string name){
-	cout << "Welcome to my program " << name + "!";
+void greetings(string name, int age){
+	cout << "Welcome to my program " << name + "!\n";
+	cout << "You are " << age << " years old";
 	cout << endl;
 };
 // calling of function
@@ -20,7 +21,15 @@ void goodbye(){
 
 
 int main(){
-	greetings("Heidi");
+	string name;
+	int age;
+	
+	cout << "Enter your name: ";
+	cin >>  name;
+	cout << "Enter your age: ";
+	cin >>  age;
+	
+	greetings(name, age);
 	goodbye();
 	cout << endl;
 	return 0;
