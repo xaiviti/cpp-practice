@@ -17,13 +17,22 @@ class Human {
 		int age;
 		double weight;
 		
-		Human(string name, int age, double weight){
+//		Human(string name, int age, double weight){
+//			this->name = name;
+//			this->age = age;
+//			this->weight = weight;
+//		}
+		Human(string name, int age, double weight);
+		
+};
+
+//scope resolution :: operator (you can put the constructor outside the class)
+
+Human::Human(string name, int age, double weight){
 			this->name = name;
 			this->age = age;
 			this->weight = weight;
 		}
-		
-};
 
 int main(){
 	
