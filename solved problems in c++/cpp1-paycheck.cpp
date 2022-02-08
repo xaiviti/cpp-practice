@@ -11,7 +11,14 @@ int main(){
 	double baseSalary, bonus, additionalBonus, paycheck;
 	int noOfServiceYears, totalSales;
 	
-	cout << "PAYCHECK CALCULATOR\n";
+	cout << "PAYCHECK CALCULATOR\n\n";
+	cout << "Enter the base salary: ";
+	cin >> baseSalary;
+	cout << "Enter the no of service (years): ";
+	cin >> noOfServiceYears;
+	cout << "Enter the total sales: ";
+	cin >> totalSales;
+	
 	
 	
 	cout << endl;
