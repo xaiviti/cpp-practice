@@ -8,7 +8,25 @@ need to find the selling price.
 #include <algorithm>
 using namespace std;
 
+class Items {
+	string name;
+	double initialPrice, sellingPrice;
+	
+	void info(){
+		cout << this->name << "\t\t" << this->initialPrice << "\t\t" << this->sellingPrice << endl;
+	}
+	
+};
+
 int main(){
+	
+	Items item1;
+	Items item2;
+	Items item3;
+	Items item4;
+	Items item5;
+	Items item6;
+	
 	
 	
 	cout << endl;
