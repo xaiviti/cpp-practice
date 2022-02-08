@@ -33,10 +33,10 @@ int main(){
 	
 	paycheck = baseSalary + bonus + additionalBonus;
 	cout << "Breakdown: \n";
-	cout << "Base Salary: \t" << baseSalary << endl;
-	cout << "Bonus: \t \t" << bonus << endl;
-	cout << "Additional Bonus: " << additionalBonus << endl;
-	cout << "Paycheck: " << paycheck << endl;
+	cout << "Base Salary: \t\t" << baseSalary << endl;
+	cout << "Bonus: \t \t\t" << bonus << endl;
+	cout << "Additional Bonus: \t" << additionalBonus << endl;
+	cout << "Paycheck: \t\t" << paycheck << endl;
 	
 	cout << endl;
 	return 0;
