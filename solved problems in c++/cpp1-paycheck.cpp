@@ -19,6 +19,19 @@ int main(){
 	cout << "Enter the total sales: ";
 	cin >> totalSales;
 	
+	if(noOfServiceYears<=5){
+		bonus = noOfServiceYears * 10;
+	}else{
+		bonus = noOfServiceYears * 20;
+	}
+	
+	if(totalSales>=5000 && totalSales<10000){
+		additionalBonus = totalSales * (0.03);
+	}else{
+		additionalBonus = totalSales * (0.06);
+	}
+	
+	paycheck = baseSalary + bonus + additionalBonus;
 	
 	
 	cout << endl;
