@@ -7,7 +7,11 @@ a salesperson in a department store.
 using namespace std;
 
 int main(){
+	//declaration
+	double baseSalary, bonus, additionalBonus, paycheck;
+	int noOfServiceYears, totalSales;
 	
+	cout << "PAYCHECK CALCULATOR\n";
 	
 	
 	cout << endl;
