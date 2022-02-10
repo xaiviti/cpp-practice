@@ -2,13 +2,12 @@
 Problem: Create a program that would convert decimal to binary.
 */
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
 int main(){
 	//declaration
-	int decimal, result, quotient, i;
-	string binary[i];
+	int decimal, modulo, quotient, i;
+	char arr[i];
 	
 	//input and process
 	cout << "DECIMAL TO BINARY\n";
@@ -16,15 +15,14 @@ int main(){
 	cin >> decimal;
 	
 	do{
-		result = decimal % 2;
-		cout << result << " ";
+		modulo = decimal % 2;
+		arr[i]=modulo;
 		quotient = decimal / 2;
 		decimal = quotient;
-	} while(quotient!=2);
-	cout << decimal;
-	
-	
-	cout << quotient;
+		i++;
+	} while((decimal!=1));
+	arr[i+1]=quotient;
+	cout << i;
 	
 	cout << endl;
 	return 0;
