@@ -6,8 +6,7 @@ using namespace std;
 
 int main(){
 	//declaration
-	int decimal, modulo, quotient, i;
-	char arr[i];
+	int decimal, modulo, quotient;
 	
 	//input and process
 	cout << "DECIMAL TO BINARY\n";
@@ -16,13 +15,11 @@ int main(){
 	
 	do{
 		modulo = decimal % 2;
-		arr[i]=modulo;
+		cout << modulo << " ";
 		quotient = decimal / 2;
 		decimal = quotient;
-		i++;
-	} while((decimal!=1));
-	arr[i+1]=quotient;
-	cout << i;
+	} while(decimal!=1);
+	cout << quotient;
 	
 	cout << endl;
 	return 0;
